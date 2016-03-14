@@ -1,0 +1,23 @@
+{
+  "name": "modern-theme",
+  "version": "0.1.0",
+  "description": "Simple JS frontend powered by the WP-API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efuller/modern-theme.git"
+  },
+  "author": "Eric Fuller",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/efuller/modern-theme/issues"
+  },
+  "homepage": "https://github.com/efuller/modern-theme#readme",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

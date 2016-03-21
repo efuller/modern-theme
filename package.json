@@ -4,7 +4,8 @@
   "description": "Simple JS frontend powered by the WP-API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --history-api-fallback --inline --progress --colors --content-base ./build",
+    "prod": "webpack -p --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,17 @@
   },
   "homepage": "https://github.com/efuller/modern-theme#readme",
   "devDependencies": {
+    "autoprefixer": "^6.3.4",
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.12.0",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   }

@@ -1,3 +1,6 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+var routes = require('./config/routes');
 var styles = require('./scss/styles');
-var app = document.getElementById("app");
-app.innerHTML = "<h1>Modern Theme</h1>";
+
+ReactDOM.render(routes, document.getElementById('app'));
